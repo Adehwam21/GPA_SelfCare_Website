@@ -1,0 +1,178 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    /* color: white;
+    background-color: black; */
+}
+header{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 4rem;
+    border-bottom: 2px #000000 solid;
+    display: flex;
+    gap: 20%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#logo { 
+    padding: 0.6rem;
+    font-family: "Poppins", "Lucida Console";
+    font-size: 25px;
+    color: rgb(22, 17, 92);
+    font-weight: 200px ;
+    text-align: center;
+}
+
+#tabs {
+    display: flex;
+    width: 20%;
+    flex-wrap: nowrap;
+    gap: 10%;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+#tabs a {
+    justify-items: left;
+    text-decoration: none;
+    font-size: 18px;
+    width: 40%;
+    font-weight: bolder;
+    font-family: "Poppins", "Lucida Console";
+    gap: 20%;
+}
+
+#welcome-and-features-section {
+    margin: 1rem 2rem;
+    height: 38rem ; 
+    border-bottom: 2px #000000 solid;
+    
+}
+#welcome-message{
+    height: 15rem;
+}
+
+#welcome-message h1 {
+    font-family: "Poppins";
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 1rem;
+    text-align: center;
+}
+
+#welcome-message p {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 100px;
+    margin: 1rem;
+    text-align: center;
+}
+
+#support-features-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    width: 100%;
+
+
+}
+
+#support-features-container > div {
+    font-family: 'Poppins';
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+    margin: 10px;
+    height: 8rem;
+    width: 20%;
+    text-align: center;
+    font-size: 18px;
+    padding: 0.4rem;
+}
+
+#forms-section {
+    margin: 0.67rem 2rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+
+.contact-us h2, .contact-card h2 {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+
+}
+
+form {
+    display: grid;
+    padding-left: 2.5rem;
+    width: fit-content;
+    grid-template-columns: 30rem;
+    grid-template-rows: 3rem 3rem 13rem 3rem;
+    row-gap: 1.4rem;
+}
+#fullname-field{
+    border: none; 
+    font-family: "Poppins";
+    font-size: 14px;
+    text-indent: 15px;
+    border-radius: 5px; 
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+
+#email-field{
+    border: none; 
+    font-family: "Poppins";
+    font-size: 14px;
+    text-indent: 15px;
+    border-radius: 5px; 
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+
+#message-field {
+    border: none; 
+    font-family: "Poppins";
+    font-size: 14px;
+    text-indent: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+    width: 29.75rem;
+    height: 13rem;
+}
+
+#submit {
+    border: none;
+    font-family: "Poppins";
+    font-size: 16;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+    width: 10rem;
+    height: 3rem;
+    margin: 0.5rem 0rem;
+    background: rgb(22, 17, 92);
+    color: white;
+    border-radius: 5px;
+}
+
+#contact-card {
+    float: left;
+    height: 10rem;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px ;
+}
